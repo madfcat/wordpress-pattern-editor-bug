@@ -4,7 +4,7 @@ import "./editor.scss";
 
 export default function Edit() {
 	return (
-		<a {...useBlockProps()} href="">
+		<a {...useBlockProps()} href="" onClick={ ( event ) => event.preventDefault() } >
 			hello
 		</a>
 	);
